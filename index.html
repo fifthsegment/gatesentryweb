@@ -1,0 +1,447 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <meta content="noindex" name="robots">
+    <title>Project Sunroof - About</title>
+    <meta property="og:url" content="https://www.google.com/get/sunroof">
+    <link href="../favicon.png" id="favicon" rel="shortcut icon" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Extended" rel="stylesheet">
+    <link href="../common.css" rel="stylesheet">
+    <script src="https://maps.google.com/maps/api/js?v=3&libraries=places&sensor=false&client=google-suncatcher"></script>
+    <script src="https://www.gstatic.com/feedback/api.js"></script>
+    <style>
+      .section {
+        border: none;
+      }
+
+      .section-intro {
+        background-image: url(../images/bg-dark-2560w.jpg);
+      }
+
+      @media (max-width: 1280px),
+             screen and (max-width: 640px) (min-resolution: 192dpi),
+             screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 2) {
+        .section-intro {
+          background-image: url(../images/bg-dark-1280w.jpg);
+        }
+      }
+
+      @media (max-width: 640px),
+             screen and (max-width: 320px) (min-resolution: 192dpi),
+             screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+        .section-intro {
+          background-image: url(../images/bg-dark-640w.jpg);
+        }
+      }
+
+      .md-display-2 {
+        font-weight: 400;
+        text-align: center;
+      }
+
+      .section-inner {
+        padding: 40px;
+      }
+
+      .section:not(.section-next-page) .section-inner {
+        max-width: 720px;
+        text-align: left;
+      }
+
+      .section .md-display-1 {
+        margin-bottom: 1em;
+        text-align: center;
+      }
+
+      @media screen and (max-width: 768px) {
+        .section-inner {
+          padding: 20px;
+        }
+      }
+
+      /** Typography */
+
+      ul.md-body {
+        padding-left: 1.5em;
+      }
+
+      /** Images */
+
+      figure,
+      .md-headline {
+        text-align: center;
+      }
+
+      figure > img {
+        max-width: 180px;
+        width: 100%;
+      }
+
+      /** Accent box */
+
+      .accent {
+        margin: 40px auto 0 auto;
+        max-width: 420px;
+        padding: 40px;
+        text-align: left;
+      }
+
+      .accent .md-headline {
+        margin: 0 0 0.5em 0;
+        font-size: 21px;
+      }
+
+      .accent .md-body:last-child {
+        margin-bottom: 0;
+      }
+
+      @media screen and (max-width: 768px) {
+        .accent {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager -->
+    <noscript><iframe height="0"
+                      src="//www.googletagmanager.com/ns.html?id=GTM-5K4DQ7"
+                      style="display: none;
+                             visibility: hidden;"
+                      width="0"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5K4DQ7');</script>
+    <!-- End Google Tag Manager -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-62229116-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <div class="header-wrap">
+      <a aria-label="Main menu" class="header-nav-toggle" href="javascript:;" role="button" tabindex="0">
+        <span class="material-icons-extended">&#xE5D2;</span>
+      </a>
+      <a class="header-title-link" href="/get/sunroof">
+        <img alt="Project Sunroof, by Google"
+             class="header-logo"
+             src="../images/logo-v2@2X.png">
+      </a>
+      <nav class="sidebar-nav">
+        <ul class="nav-section">
+          <li class="nav-item">
+            <a class="nav-link" href="..">Savings estimator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../data-explorer/">
+              Data explorer
+              <sup class="nav-link-beta">Beta</sup>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../about/">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../how-it-works/">Solar 101</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../process/">Installation process</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../faq/">FAQ</a>
+          </li>
+        </ul>
+        <ul class="nav-section">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:;" data-action="feedback">Send feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="header-nav">
+        <ul class="nav-section">
+          <li class="nav-item">
+            <a class="nav-link" href="..">Savings estimator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../data-explorer/">
+              Data explorer
+              <sup class="nav-link-beta">Beta</sup>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../how-it-works/">Solar 101</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../faq/">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="nav-mask"></div>
+    <div class="main-content-wrapper">
+      <div class="main-content">
+
+        <div class="section section-intro">
+          <div class="section-inner">
+            <h1 class="md-display-2">About Project Sunroof</h1>
+          </div>
+        </div>
+
+        <div id="why-are-we-doing-this" class="section">
+          <div class="section-inner">
+            <figure>
+              <img alt=""
+                   src="../images/about/1-why.png"
+                   style="max-width: 120px">
+            </figure>
+            <h3 class="md-display-1">
+              Why are we doing this?
+            </h3>
+            <p class="md-body">
+              As the price of installing solar has gotten less expensive, more
+              homeowners are turning to it as a possible option for decreasing
+              their energy bill. We want to make installing solar panels easy
+              and understandable for anyone.
+            </p>
+            <p class="md-body">
+              Project Sunroof puts Google's expansive data in mapping and
+              computing resources to use, helping calculate the best solar plan
+              for you.
+            </p>
+          </div>
+        </div>
+
+        <div id="how-it-works" class="section">
+          <div class="section-inner">
+            <figure>
+              <img alt=""
+                   src="../images/about/2b-how-works.png"
+                   style="max-width: 150px">
+            </figure>
+            <h3 class="md-display-1">
+              How it works
+            </h3>
+            <p class="md-body">
+              When you enter your address, Project Sunroof looks up your home in
+              Google Maps and combines that information with other databases to
+              create your personalized roof analysis. Don’t worry, Project
+              Sunroof doesn't give the address to anybody else unless you ask it
+              to.
+            </p>
+          </div>
+        </div>
+
+        <div id="customizing-for-your-roof" class="section">
+          <div class="section-inner">
+            <figure>
+              <img alt="" src="../images/about/3-customizing-roof.png">
+            </figure>
+            <h3 class="md-display-1">
+              Customizing for your roof
+            </h3>
+            <p class="md-body">
+              Project Sunroof computes how much sunlight hits your roof in a
+              year. It takes into account:
+            </p>
+            <ul class="md-body">
+              <li>Google's database of aerial imagery and maps</li>
+              <li>3D modeling of your roof</li>
+              <li>Shadows cast by nearby structures and trees</li>
+              <li>All possible sun positions over the course of a year</li>
+              <li>
+                Historical cloud and temperature patterns that might affect
+                solar energy production
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="choose-what-you-need" class="section">
+          <div class="section-inner">
+            <figure>
+              <img alt="" src="../images/about/4c-choose-need.png">
+            </figure>
+            <h3 class="md-display-1">
+              Choose what you need
+            </h3>
+            <p class="md-body">
+              Project Sunroof recommends an installation size to generate close
+              to 100% of your electricity use, based on roof size, the amount of
+              sun hitting the roof, and your electricity bill.
+            </p>
+            <p class="md-body">
+              We recommend an installation that covers less than 100% of your
+              electrical usage because, in most areas, there is little financial
+              benefit to producing more power than you can consume.
+            </p>
+          </div>
+        </div>
+
+        <div id="computing-your-savings" class="section">
+          <div class="section-inner">
+            <figure>
+              <img alt=""
+                   src="../images/about/5b-computing-savings.png"
+                   style="max-width: 120px;">
+            </figure>
+            <h3 class="md-display-1">
+              Computing your savings
+            </h3>
+            <p class="md-body">
+              Project Sunroof uses current solar industry pricing data to run
+              the numbers on leasing, taking a loan, or buying solar panels for
+              your house to help you choose what's best for you.
+            </p>
+            <p class="md-body">
+              Project Sunroof also compiles the following incentives to
+              calculate your final cost:
+            </p>
+            <ul class="md-body">
+              <li>Federal and state tax credits</li>
+              <li>Utility rebates</li>
+              <li>Renewable energy credits and net metering</li>
+            </ul>
+            <p class="md-body">
+              <a class="flat-btn" href="../faq/#financial-considerations">
+                More about financial estimates
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="section section-grey section-providers-address">
+          <div class="section-inner">
+            <h3 class="md-headline">
+              See how much you can save
+            </h3>
+            <div class="address-wrapper">
+              <form autocomplete="off"
+                    class="address-form AddressForm"
+                    id="AddressForm2">
+                <input class="address-input border AddressInput"
+                       type="text" maxlength=150
+                       placeholder="Enter home address"
+                       id="AddressInput2">
+                <button class="btn btn-fill-orange" aria-label="Estimate">
+                  Estimate
+                </button>
+              </form>
+            </div>
+            <div class="md-body landing-privacy">
+              <img alt="Lock icon"
+                   class="landing-privacy-icon"
+                   src="../images/lock-icon-dark.png"
+                   srcset="../images/lock-icon-dark.png 1x,
+                           ../images/lock-icon-dark@2X.png 2x">
+              Project Sunroof will only share the information you’ve entered on
+              this site when you select solar providers to contact you.
+            </div>
+          </div>
+        </div>
+
+        <div id="taking-next-steps" class="section">
+          <div class="section-inner">
+            <figure class="align-paragraph">
+              <img alt="" src="../images/about/6-taking-steps.png">
+            </figure>
+            <h3 class="md-display-1">
+              Taking next steps
+            </h3>
+            <p class="md-body">
+              If you’d like to know more or to get started on going solar,
+              Project Sunroof can put you in touch with solar providers who
+              serve your area.
+            </p>
+            <p class="md-body">
+              Project Sunroof will only send information you provide to solar
+              providers that you selected.
+            </p>
+          </div>
+        </div>
+
+        <div class="section section-grey section-next-page">
+          <div class="section-inner">
+            <h3 class="md-headline">
+              Still have questions?
+            </h3>
+            <a class="flat-btn" href="../faq/">
+              See our FAQ
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <div class="footer-wrapper border-gradient-top">
+        <div class="footer-title-link">
+          <img alt="Google logo"
+               class="footer-logo"
+               src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_black_color_60x24dp.png"
+               srcset="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_black_color_60x24dp.png 1x,
+                       https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_black_color_60x24dp.png 2x">
+        </div>
+        <span class="footer-links">
+          <a class="footer-link" href="../about/" id="SuncatcherAboutLink">About</a>
+          <a class="footer-link" href="../faq/" id="SuncatcherFaqLink">FAQ</a>
+          <a class="footer-link"
+             href="/intl/en/policies/privacy/"
+             target="_blank"
+             id="SuncatcherPrivacyLink">Privacy</a>
+          <a class="footer-link"
+             href="/intl/en/policies/terms/"
+             target="_blank"
+             id="SuncatcherTermsLink">Terms</a>
+          <a class="footer-link mobile-hide"
+             href="javascript:;"
+             data-action="feedback">Send feedback</a>
+        </span>
+      </div>
+    </div>
+
+    <div class="modal hidden">
+      <div class="modal-close">
+        <i class="material-icons-extended">&#xE5CD;</i>
+      </div>
+      <div class="modal-content">
+        <div class="modal-title">
+          See how much you can save&nbsp;with&nbsp;solar
+        </div>
+        <div class="address-wrapper">
+          <form autocomplete="off"
+                class="address-form AddressForm"
+                id="ModalAddressForm">
+            <input class="address-input border AddressInput"
+                   type="text" maxlength=150
+                   placeholder="Enter your address"
+                   id="ModalAddressInput">
+            <button class="btn btn-fill-orange">
+              Analyze<span class="mobile-hide"> my roof</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--[if IE 9]><script>document.body.className += ' ie9';</script><![endif]-->
+    <script src="../js/address_form.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/navigation.js"></script>
+  </body>
+</html>
