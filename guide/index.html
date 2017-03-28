@@ -113,6 +113,15 @@
                 <li>Now that GateSentry's running you can access GateSentry's administration panel to change settings at <u>http://127.0.0.1:10786</u>. Default admin panel credentials (username and password) are <strong>admin</strong> and <strong>admin</strong></li>
                 </ul>
               </p>
+
+
+              <p class="md-body ">
+                <h4>Special Instructions for *Pi devices</h4>
+                GateSentry logs traffic passing through it onto a file called log.db, this isn't much of a problem on a normal computer with a spinning hard disk. But it can be an issue on systems that use an SD Card as the main storage device. Since most of the Pi devices are powered by these SD Cards which are sensitive to too many writes, I'd suggest you to move your log.db file to the memory. This would of course mean that you'd loose the log file in case the power goes out, but this would save your SD Card from corruption.
+
+                <br/>
+                To do that, simply go to GateSentry's admin panel -> Settings and change the log.db location to <strong>/tmp/log.db</strong>.
+              </p>
             
             </div>
           </div> 
